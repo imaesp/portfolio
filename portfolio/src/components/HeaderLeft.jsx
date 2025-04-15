@@ -1,6 +1,6 @@
 import React from 'react'
 import image from '/public/image.jpg'
-import { BiCurrentLocation, BiEnvelope, BiLogoGithub, BiLogoLinkedin, BiLogoSlack, BiMoon, BiPhone, BiSun } from 'react-icons/bi'
+import { BiCurrentLocation, BiEnvelope, BiLogoGithub, BiLogoLinkedin, BiLogoSlack, BiMoon, BiPaperclip, BiParagraph, BiPhone, BiSun } from 'react-icons/bi'
 
 function HeaderLeft({darkMode, toggleDarkMode}) {
   return (
@@ -40,6 +40,10 @@ function HeaderLeft({darkMode, toggleDarkMode}) {
                 <li className='flex items-center gap-2'>    
                     <BiPhone className='text-x1'/>
                     <span>917-209-6036</span>
+                </li>
+                <li className='flex items-center gap-2'>    
+                    <BiPaperclip className='text-x1'/>
+                    <span><a href="https://drive.google.com/file/d/1DUy8OmRIpbVDowuPBlbp86SzU50Xb082/view?usp=sharing">My Resume</a></span>
                 </li>
             </ul>
         </div>
