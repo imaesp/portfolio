@@ -38,10 +38,6 @@ function HeaderLeft({darkMode, toggleDarkMode}) {
                     <span>imanolespinalh@gmail.com</span>
                 </li>
                 <li className='flex items-center gap-2'>    
-                    <BiPhone className='text-x1'/>
-                    <span>917-209-6036</span>
-                </li>
-                <li className='flex items-center gap-2'>    
                     <BiPaperclip className='text-x1'/>
                     <span><a href="https://drive.google.com/file/d/19Xq4GGepHARjBV7URQxdGEnYAAS8hNeb/view?usp=sharing">My Resume</a></span>
                 </li>
