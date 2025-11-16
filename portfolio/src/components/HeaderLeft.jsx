@@ -39,7 +39,7 @@ function HeaderLeft({darkMode, toggleDarkMode}) {
                 </li>
                 <li className='flex items-center gap-2'>    
                     <BiPaperclip className='text-x1'/>
-                    <span><a href="https://drive.google.com/file/d/19Xq4GGepHARjBV7URQxdGEnYAAS8hNeb/view?usp=sharing">My Resume</a></span>
+                    <span><a href="https://drive.google.com/file/d/1tQGZiP2h5DDoDuXuyzC1dz2Uf_xpgl2X/view?usp=sharing">My Resume</a></span>
                 </li>
             </ul>
         </div>
